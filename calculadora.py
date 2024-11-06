@@ -28,7 +28,7 @@ def potencia(a, b):
 def raiz_cuadrada(a):
     if a < 0:
 
-        return "Error: No se puede calcular la raíz cuadrada de un número negativo."   
+        return "Error: No se puede calcular la raíz cuadrada de un número negativo."
 
     return math.sqrt(a)
         
