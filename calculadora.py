@@ -1,46 +1,15 @@
 # calculadora.py
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import math
 
-=======
->>>>>>> multiplicacion-feature
-=======
->>>>>>> division-feature
-=======
->>>>>>> potencia-feature
-=======
->>>>>>> raizcuadrada-feature
-=======
-import math
-
-
->>>>>>> logaritmo-feature
 def suma(a, b):
     return a + b
 
 def resta(a, b):
     return a - b
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
 def multiplicacion(a, b):
     return a * b
->>>>>>> multiplicacion-feature
-=======
-=======
->>>>>>> potencia-feature
-=======
->>>>>>> raizcuadrada-feature
-=======
->>>>>>> logaritmo-feature
 
 def multiplicacion(a, b):
     return a * b
@@ -50,37 +19,19 @@ def division(a, b):
         return "Error: División por cero."
     return a / b
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> division-feature
-=======
 def potencia(a, b):
     return a ** b
 
-
->>>>>>> potencia-feature
-=======
-=======
->>>>>>> logaritmo-feature
 def potencia(a, b):
     return a ** b
 
 def raiz_cuadrada(a):
     if a < 0:
-<<<<<<< HEAD
+
         return "Error: No se puede calcular la raíz cuadrada de un número negativo."   
 
     return math.sqrt(a)
-
-
-
->>>>>>> raizcuadrada-feature
-=======
-        return "Error: No se puede calcular la raíz cuadrada de un número negativo." 
-
-    return math.sqrt(a)
-
+        
 def logaritmo(a):
     if a <= 0:
         return "Error: El argumento del logaritmo debe ser mayor que cero."
@@ -124,4 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> logaritmo-feature
+
